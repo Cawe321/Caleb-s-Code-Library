@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   titleText: Singleton Object Script
   titleSize: 24
-  titleColor: {r: 0, g: 0, b: 0, a: 1}
+  titleColor: {r: 1, g: 1, b: 1, a: 1}
   titleFontStyle: 1
   sections:
   - headingText: 'What this script does:'

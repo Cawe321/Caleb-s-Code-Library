@@ -67,7 +67,8 @@ namespace CalebCodeLibrary.ReadMeUtility
 			_titleStyle = new GUIStyle()
 			{
 				fontSize = readMeObject.titleSize,
-				fontStyle = readMeObject.titleFontStyle
+				fontStyle = readMeObject.titleFontStyle,
+				wordWrap = true,
 			};
 			_titleStyle.normal.textColor = readMeObject.titleColor;
 		}
@@ -82,6 +83,7 @@ namespace CalebCodeLibrary.ReadMeUtility
 			{
 				fontSize = section.headingSize,
 				fontStyle = section.headingFontStyle,
+				wordWrap = true,
 			};
 			_headingStyle.normal.textColor = section.headingColor;
 
