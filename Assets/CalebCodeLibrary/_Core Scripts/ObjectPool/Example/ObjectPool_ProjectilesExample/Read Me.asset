@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb76d5547dad5f47bcc45e12449944d, type: 3}
+  m_Name: Read Me
+  m_EditorClassIdentifier: 
+  titleText: An example of ObjectPool used for spawning Projectiles
+  titleSize: 24
+  titleColor: {r: 1, g: 1, b: 1, a: 1}
+  titleFontStyle: 1
+  sections:
+  - headingText: 'Items in this example:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: 1. ObjectPool_ProjectilesExample.unity\n2. ObjectPool_ProjectilesExampleScript.cs
+      (Script - ObjectPool)\n3. ObjectPool_ProjectilesExampleProjectileScript.cs
+      (Script - Simple Projectile)
+    bodySize: 0
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  - headingText: 'Details in this example:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: The scene demonstrates the use of Object Pooling with ObjectPool_Projectiles_Example
+      GameObject with ObjectPool_ProjectilesExampleScript.cs Behaviour Script attached
+      to it. When pressing Play in the editor, it will Preload(Instantiate) 5 objects
+      and set them to inactive. It will then spawn a projectile evey 0.2 seconds.
+      The projectiles will despawn 1.5 seconds after it spawns.\n\nThis showcases
+      how inactive GameObjects are "reused" using Object Pooling to reduce the amount
+      of instantiating when spawning projectiles.
+    bodySize: 0
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  - headingText: 'Observables in this example:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: You may view the Hierarchy of ObjectPool_Projectiles_Example GameObject
+      to see the projectiles being reused.
+    bodySize: 0
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  loadedLayout: 0
