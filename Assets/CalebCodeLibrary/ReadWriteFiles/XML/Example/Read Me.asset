@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb76d5547dad5f47bcc45e12449944d, type: 3}
+  m_Name: Read Me
+  m_EditorClassIdentifier: 
+  titleText: XmlLoader Example
+  titleSize: 24
+  titleColor: {r: 1, g: 1, b: 1, a: 1}
+  titleFontStyle: 1
+  sections:
+  - headingText: 
+    headingSize: 0
+    headingColor: {r: 0, g: 0, b: 0, a: 0}
+    headingFontStyle: 0
+    bodyText: 
+    bodySize: 0
+    bodyColor: {r: 0, g: 0, b: 0, a: 0}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  - headingText: 'Details in this example:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: The scene contains an "Xml Example Usage Script" GameObject that manages
+      the XmlLoader static class. It also contains the "XmlExampleDummyObject" class
+      which we are storing. The "Read" and "Write" buttons will read and write the
+      dummy objects' values to and from the XML file respectively.
+    bodySize: 0
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  - headingText: 'Observables in this example:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: 1. When clicking the "Xml Example Usage Script" GameObject and opening
+      the Inspector, there will be a property named "Dummy Object". That will be
+      the class and values we are storing in this example. You are free to modify
+      its values.\n2. You may also adjust the File Path and File Name. Tick "Use
+      Persistent Data Path" to store the file in the folder assigned to your project.
+      If ticked, the script will generate the file path and file in that folder.\n3.
+      After adjusting the values at the Inspector, you may click the "Write" button
+      and it will print to the console the file directory your XML file was generated
+      to.\n4. Click the "Read" button to retrieve the values from the XML file and
+      it will print those values to the console.
+    bodySize: 0
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  loadedLayout: 0

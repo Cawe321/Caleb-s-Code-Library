@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb76d5547dad5f47bcc45e12449944d, type: 3}
+  m_Name: Read Me
+  m_EditorClassIdentifier: 
+  titleText: XmlLoader
+  titleSize: 24
+  titleColor: {r: 1, g: 1, b: 1, a: 1}
+  titleFontStyle: 1
+  sections:
+  - headingText: 'What this script does:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: 'It''s a static class that can be used to read/write XML files. '
+    bodySize: 16
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  - headingText: 'Things to take note:'
+    headingSize: 20
+    headingColor: {r: 1, g: 0, b: 0, a: 1}
+    headingFontStyle: 1
+    bodyText: 1. XmlLoader.FilePath and XmlLoader.FileName must be initialized. If
+      not, it will use the default values which is shown on their description. XmlLoader.QuickInitialize()
+      can be used to initialize those values.\n2. XmlLoader<T>, where T is the class
+      that you are reading/writing. T must also be a System.Serializable class.\n3.
+      XmlLoader.ReadFromFile() and XmlLoader.WriteToFile() are the core functions
+      that you should use to  read/write.
+    bodySize: 16
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  loadedLayout: 0

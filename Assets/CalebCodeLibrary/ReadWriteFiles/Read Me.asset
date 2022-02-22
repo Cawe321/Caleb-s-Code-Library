@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb76d5547dad5f47bcc45e12449944d, type: 3}
+  m_Name: Read Me
+  m_EditorClassIdentifier: 
+  titleText: ReadWriteFiles
+  titleSize: 24
+  titleColor: {r: 1, g: 1, b: 1, a: 1}
+  titleFontStyle: 1
+  sections:
+  - headingText: 'About this folder:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: This folder aims to be a compilation of different methods of Reading
+      & Writing files.
+    bodySize: 16
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  - headingText: 'Purpose of Reading & Writing Files:'
+    headingSize: 20
+    headingColor: {r: 1, g: 1, b: 1, a: 1}
+    headingFontStyle: 1
+    bodyText: Allows developers to make quick amendments to values in the project
+      without the need to rebuild the entire project.
+    bodySize: 16
+    bodyColor: {r: 1, g: 1, b: 1, a: 1}
+    bodyFontStyle: 0
+    linkText: 
+    linkSize: 0
+    linkTextColor: {r: 0, g: 0, b: 0, a: 0}
+    linkFontStyle: 0
+    url: 
+  loadedLayout: 0
