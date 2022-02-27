@@ -1,2 +1,2 @@
 # Caleb-s-Code-Library-Rewrite
- A personal library of utility scripts (C#) for Unity Game Engine.
+ A rewritten personal library of utility scripts (C#) for Unity Game Engine.
